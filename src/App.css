@@ -1,0 +1,44 @@
+.apresentacao{
+  background-color: rgb(255, 254, 254);
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.App{
+  text-align: center;
+  background: gray;
+  color: white  ;
+  width: 400px;
+  height: 400px;
+  margin: 15px 25px;
+  padding-top: 5px;
+}
+
+.img-tm{
+  height: calc(100% - 15rem);
+  width: 60%;
+  object-fit: cover;
+}
+
+.btn-delete{
+  width: 120px;
+  padding: 10px;
+  background-color: indigo;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.header{
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.header h2 a{
+  color: blue;
+  text-decoration: none;
+}
+.cards{
+  display: flex;
+}
